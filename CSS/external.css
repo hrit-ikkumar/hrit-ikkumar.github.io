@@ -1,42 +1,125 @@
-/* 
-Togeter-1
-*/
-
 body{
-	background: #B3B3B3;
-	font-size: 125%;
+	margin: 2.3% 2.3% 2.3%;
+	background: #C5B8A6;
+	padding: 10px;
+	
 }
+
 
 header{
-	text-align: center;
-	background: #666666;
-}
+	background: #dcd8da5c;
+	background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+	padding: 3%;
+	background-repeat: no-repeat;
+	background-size: cover;
 
+}
+img {
+	height: 60%;
+	width: 80%;
+	border: solid;
+	border-color: black;
+	border-image-width: 1px;
+	margin-top: 5%;
+	margin-left: 9%;
+	margin-right: 9%;
+	margin-bottom: 5%;
+	display: block;
+
+
+}
 h1{
-	color: #ffffff;
+	text-align: center;
+	color: #000000;
+	font-size: -webkit-xxx-large;
+	font-family: "Times New Roman";
+	text-decoration: solid;
 }
-
-nav{
-	font-variant: small-caps;
-	font-family: Arial, "Times New Roman",serif;
-	font-size: 150%;
+.left{
+	background: #798350;
+	display: inline;
+	width: 30%;
+	height: 100%;
+	float: left;
+	
 }
-a{
-	color:#551A8B;
+.right{
+	display: inline;
+	float: right;
+	text-overflow: all;
+	width: 68%;
+}
+main{
+	background: #2384;
 }
 h2{
-	color: #666666;
-	background:#00b7ea;
+	color: #230940;
+	font-style: Arial;
 }
 
-summary{
-font-style: normal;
+nav > a:link{
+	color: #452a2a;
+	border: solid 1px black;
+	border-radius: 3px;
+	font-family: "Times New Roman";
+	font-style:serif;
+	text-align: center;
+	text-decoration-line: none;
+	font-size: xx-large;
+	margin-left: 13%;
+	position: 20%;
 }
 
-details{
-	font-style: italic;
+nav > a:hover, nav > a:active{
+	color:hotpink !important;
+	background: white;
+	border: solid 1px black;
+	border-radius: 3px;
+	font-family: "Times New Roman";
+	font-style:serif;
+	text-align: center;
+	text-decoration-line: none;
+	font-size: xx-large;
+	margin-left: 13%;
+	position: 20%;
+}
+.active{
+	background: white;
 }
 
-footer{
-	background: #666666;
+table tr  th{
+	background: linear-gradient(#ffdc00,#919A49);
+	color: white;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	border: solid green;
+	border-radius: 4px 4px 0px 0px;
+	border-width:0px 0px 3px 0px;
+}
+
+table tr th:first-child{
+	text-align: left;
+}
+
+table tr td:nth-child(2){
+	text-align: center;
+}
+table tr td:nth-child(3){
+	text-align: center;
+}
+
+
+table tr td{
+	background: #E4F5D4;
+	border-radius: 2px 2px 0px 0px;
+	border-width: .5px;
+}
+table tr{
+	opacity: 0.5;
+}
+table tr:first-child{
+	opacity: 1;
+}
+table tr:hover{
+	opacity: 1;
 }
