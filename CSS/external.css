@@ -11,6 +11,7 @@ header{
 	background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
 	padding: 3%;
 	background-repeat: no-repeat;
+	border: 1px;
 	background-size: cover;
 
 }
