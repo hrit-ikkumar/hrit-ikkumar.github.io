@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<!--
+		Setting encoding to UTF-8
+	-->
+	<meta charset="UTF-8">
+	<!--
+		Setting up viewport
+	-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--
+		Title of the page
+	-->
+	<title>Hritik Kumar Sharma's Portfolio</title>
+	<!-- 
+		Favicon for webiste
+	!-->
+	<link rel="shortcut icon" type ="image/x-icon" href="img/HritikKumarSharma.jpg" />
+	<!--
+		Linking css to html page
+	-->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- 
+		Linking JavaScript to html page
+	-->
+	<script src="js/main.js"></script>
+	<!--
+		Linking JS of fontawesome
+	-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<h1>Hritik Kumar Sharma</h1>
+		<p>Competitive Programmer</p>
+		<div class = "front">
+		<ul>
+			<li>
+				<a href ="https://www.linkedin.com/in/hritik-kumar/">
+					<img src="img/linkedin.svg" alt="linkedin">
+				</a>
+			</li>
+			<li>
+				<a href="https://github.com/hritikkumars">
+					<img src="img/github.svg" alt="github">
+				</a>
+			</li>
+			<li>
+				<a href="https://www.stopstalk.com/user/profile/hritikkumar">
+					<img class ="blur" src="img/stopstalk.svg" alt="stopstalk">
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/hritik__kumar">
+					<img src="img/twitter.svg" alt ="twitter">
+				</a>
+			</li>
+		</ul>
+		</div>
+			<nav class="second-front">
+				<!-- Simulate a smartphone / tablet -->
+				<div class="mobile-container">
+
+				<!-- Top Navigation Menu -->
+						<div class="topnav">
+					 	 <p class="active">Contact</p>
+					 	 <div id="myLinks">
+					    	<a href="index.html">Home</a>
+					    	<a href="resume.html">Resume</a>
+					    	<a href="projects.html">Projects</a>
+					  	</div>
+					  <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+					    <i class="fa fa-bars fa-2x"></i>
+					  </a>
+					</div>
+		</nav>
+	</header>
+			<nav>
+			<ul id="tab">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="resume.html">Resume</a>
+				</li>
+				<li>
+					<a href="projects.html">Projects</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+	</nav>
+	<main>
+		<h3>Contact</h3>
+		<form>
+			<fieldset>
+				<legend>Feel free to share views...</legend>
+				<label for="name">Name</label><br>
+				<input type="text" name="name" placeholder="Your Name.."><br><br>
+
+				<label for="email">Email</label><br>
+				<input type="email" name="email" placeholder="Your Email.."><br><br>
+
+				<label for="message">Message</label><br>
+				<textarea rows ="4" cols="20" name="message" placeholder="Write from here.."></textarea> <br><br>
+
+				<input type="submit" value="submit">
+			</fieldset>
+		</form>
+	</main>
+	<footer class="sticky">
+		<section class="center-me">
+			<a href="index.html">Home</a>
+			<a href="contact.html">Top</a>
+			<a href="contact.html">Contact</a>
+		</section>
+		<section class="center-footer">
+			<p class="small-it"><i>Made by Hritik Kumar Sharma</i></p>
+		</section>
+	</footer>
+</body>
+</html>
