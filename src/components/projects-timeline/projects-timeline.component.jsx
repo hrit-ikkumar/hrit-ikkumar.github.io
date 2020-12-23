@@ -69,7 +69,7 @@ const TimeLine = () => {
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Executes Programs in C, C++, Python, Java, &amp; JavaScript</li>
-                          <li>Powered by React.js, Express.js &amp; Node.js</li>
+                          <li>Developed by React.js, Express.js &amp; Node.js</li>
                           <li>NPM Modules are used like codemirror &amp; compile-run.</li>
                         </ul>
                         <hr />
@@ -235,13 +235,13 @@ const TimeLine = () => {
                 </div>
                 <div className="d-flex justify-content-between flex-nowrap text-center">
                   <UrlButton
-                    href="https://github.com/hrit-ikkumar/DateYourEve"
+                    href="https://drive.google.com/file/d/1TKZRaUQtX5G52FU0sXaWfg8Cbe-WDJAY/view"
                     target="_blank"
                   >
                     SEE LIVE (APK)
                   </UrlButton>
                   <UrlButton
-                    href="https://drive.google.com/file/d/1TKZRaUQtX5G52FU0sXaWfg8Cbe-WDJAY/view"
+                    href="https://github.com/hrit-ikkumar/DateYourEve"
                     target="_blank"
                   >
                     SOURCE CODE
@@ -278,7 +278,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An restaurant web app to show case products and also allow users to maintain their favorite items' list. 
+                        <strong>Description:</strong> A restaurant web app to show case products and also allow users to maintain their favorite items' list. 
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
