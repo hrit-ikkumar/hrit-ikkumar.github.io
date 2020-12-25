@@ -42,6 +42,101 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+          {/* Project: DateYourEve */}
+          <ImageEvent
+            date="16/12/2020"
+            className="text-center"
+            text="DateYourEve"
+            src={L_ANDROID}
+            alt="DateYourEve"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> The app can be used to manage events. You can create events and check out home feed for all the public events. User can also maintain a profile where he can store basic informations. 
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>CRUD Operations on events</li>
+                          <li>Firebase Auth &amp; FireStore used for backend</li>
+                          <li>RecylerView implemented in fragments.</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVA}
+                                alt="JAVA"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Java
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_XML}
+                                alt="XML"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              XML
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_Firebase}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://drive.google.com/file/d/1TKZRaUQtX5G52FU0sXaWfg8Cbe-WDJAY/view"
+                  target="_blank"
+                >
+                  SEE LIVE (APK)
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/hrit-ikkumar/DateYourEve"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/hrit-ikkumar/DateYourEve"
+                  target="_blank"
+                >
+                  WATCH VIDEO
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
         {/* Project: Coding Valut (IDE Web App) */}
         <ImageEvent
             date="15/10/2020"
@@ -160,102 +255,6 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-
-          {/* Project: DateYourEve */}
-          <ImageEvent
-              date="16/12/2020"
-              className="text-center"
-              text="DateYourEve"
-              src={L_ANDROID}
-              alt="DateYourEve"
-            >
-              <div className="d-flex justify-content-between flex-column mt-1">
-                <div>
-                  <Accordion>
-                    <Card>
-                      <Accordion.Toggle
-                        as={Card.Header}
-                        eventKey="0"
-                        className="p-2 text-center accordian-main"
-                      >
-                        PROJECT DETAILS
-                      </Accordion.Toggle>
-
-                      <Accordion.Collapse eventKey="0" className="text-left">
-                        <Card.Body>
-                          <strong>Description:</strong> The app can be used to manage events. You can create events and check out home feed for all the public events. User can also maintain a profile where he can store basic informations. 
-                          <hr />
-                          <strong>Features:</strong>
-                          <ul className="list-styles pt-1">
-                            <li>CRUD Operations on events</li>
-                            <li>Firebase Auth &amp; FireStore used for backend</li>
-                            <li>RecylerView implemented in fragments.</li>
-                          </ul>
-                          <hr />
-                          <strong>Tech used:</strong>
-                          <ul>
-                            <li>
-                              <span className="p-2">
-                                <Image
-                                  src={L_JAVA}
-                                  alt="JAVA"
-                                  rounded
-                                  className="image-style1 m-1"
-                                ></Image>{" "}
-                                Java
-                              </span>
-                            </li>
-                            <li>
-                              <span className="p-2">
-                                <Image
-                                  src={L_XML}
-                                  alt="XML"
-                                  rounded
-                                  className="image-style1 m-1"
-                                ></Image>{" "}
-                                XML
-                              </span>
-                            </li>
-                            <li>
-                              <span className="p-2">
-                                <Image
-                                  src={L_Firebase}
-                                  alt="Firebase"
-                                  rounded
-                                  className="image-style1 m-1"
-                                ></Image>{" "}
-                                Firebase
-                              </span>
-                            </li>
-                          </ul>
-                        </Card.Body>
-                      </Accordion.Collapse>
-                    </Card>
-                  </Accordion>
-                </div>
-                <div className="d-flex justify-content-between flex-nowrap text-center">
-                  <UrlButton
-                    href="https://drive.google.com/file/d/1TKZRaUQtX5G52FU0sXaWfg8Cbe-WDJAY/view"
-                    target="_blank"
-                  >
-                    SEE LIVE (APK)
-                  </UrlButton>
-                  <UrlButton
-                    href="https://github.com/hrit-ikkumar/DateYourEve"
-                    target="_blank"
-                  >
-                    SOURCE CODE
-                  </UrlButton>
-                  <UrlButton
-                    href="https://github.com/hrit-ikkumar/DateYourEve"
-                    target="_blank"
-                  >
-                    WATCH VIDEO
-                  </UrlButton>
-                </div>
-              </div>
-            </ImageEvent>
-
           {/* Project: Rist */}
           <ImageEvent
             date="19/06/2020"
@@ -363,7 +362,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/hrit-ikkumar/Ristorante-Con-Fusion"
+                  href="https://ristorante-cf.herokuapp.com/"
                   target="_blank"
                 >
                   SEE LIVE
@@ -383,6 +382,7 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
+        
         </Events>
       </Timeline>
     </div>
