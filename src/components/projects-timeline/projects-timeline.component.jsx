@@ -234,15 +234,15 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/hrit-ikkumar/coding-vault"
+                  href="https://coding-vault.herokuapp.com/"
                   target="_blank"
                 >
-                  {/*SEE LIVE
+                  SEE LIVE
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/hrit-ikkumar/coding-vault"
                   target="_blank"
-                  >*/}
+                  >
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
